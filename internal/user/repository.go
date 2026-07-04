@@ -2,6 +2,7 @@ package user
 
 import (
 	"example.com/hr-emp-mgmt/config"
+	
 
 	"gorm.io/gorm"
 )
@@ -36,3 +37,6 @@ func (r *repository) GetByEmail(email string) (*User, error) {
 
 	return &user, nil
 }
+
+
+
